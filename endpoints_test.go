@@ -35,3 +35,11 @@ func TestSearchInstrument(t *testing.T) {
 	}
 	t.Log(instrument)
 }
+
+func TestGetHistoricalPrices(t *testing.T) {
+	prices, err := fakeClient.GetHistoricalPrices(1, "2021-09-30")
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(prices)
+}

@@ -7,12 +7,12 @@ import (
 
 // * * Endpoints for interacting with Nordnet * * //
 
-// GetWatchLists : Returns the user's stock watch list
+// GetWatchLists : Returns the user's stock watch lists
 func (nc NordnetClient) GetWatchLists() (wlg []WatchListDetail, err error) {
 	var wlgList []WatchListCatalogResponse
 	batchList := BatchList{
 		BatchObject{
-			RelativeURL: "watchlists", //2800292/alldata
+			RelativeURL: "watchlists",
 			Method:      "GET",
 		},
 	}
@@ -59,6 +59,7 @@ func (nc NordnetClient) GetWatchList(watchListID int) (wlg WatchList, err error)
 	return
 }
 
+// SearchInstrument : searches instrument by ID
 func (nc NordnetClient) SearchInstrument(id int) (response InstrumentDetail, err error) {
 	var instrumentResponse InstrumentResponse
 	baseAddr := "/instrument_search/query/stocklist?apply_filters=instrument_id%3D"
@@ -72,5 +73,34 @@ func (nc NordnetClient) SearchInstrument(id int) (response InstrumentDetail, err
 	}
 	err = json.Unmarshal(bytes, &instrumentResponse)
 	response = instrumentResponse.Results[0]
+	return
+}
+
+// GetHistoricalPrices : get price history from specified date
+func (nc NordnetClient) GetHistoricalPrices(id int, fromDate string) (history PriceHistory, err error) {
+	var priceHistoryResponse PriceHistoryResponse
+	baseAddr := fmt.Sprintf("instruments/historical/prices/%v", id)
+	fields := "?fields=open,high,low,last,volume"
+	from := fmt.Sprintf("&from=%s", fromDate) // format 2007-10-15
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("%s%s%s", baseAddr, fields, from),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	req, err := nc.Driver.PreparePostRequest("/batch", batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.Driver.SendRequest(req)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &priceHistoryResponse)
+	history = priceHistoryResponse[0].Body[0]
 	return
 }

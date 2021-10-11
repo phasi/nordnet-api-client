@@ -1,0 +1,87 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": [
+            {
+                "instrument_id": 17576340,
+                "delayed": 0,
+                "prices": [
+                    {
+                        "time": 1632960000000,
+                        "high": 7.34,
+                        "low": 7.1,
+                        "open": 7.2,
+                        "last": 7.231,
+                        "volume": 102370
+                    },
+                    {
+                        "time": 1633046400000,
+                        "high": 7.29,
+                        "low": 6.87,
+                        "open": 7.29,
+                        "last": 6.95,
+                        "volume": 47737
+                    },
+                    {
+                        "time": 1633305600000,
+                        "high": 7.1,
+                        "low": 6.86,
+                        "open": 7.1,
+                        "last": 6.94,
+                        "volume": 21538
+                    },
+                    {
+                        "time": 1633392000000,
+                        "high": 7.0,
+                        "low": 6.62,
+                        "open": 6.96,
+                        "last": 6.84,
+                        "volume": 14870
+                    },
+                    {
+                        "time": 1633478400000,
+                        "high": 6.82,
+                        "low": 6.5,
+                        "open": 6.82,
+                        "last": 6.68,
+                        "volume": 26697
+                    },
+                    {
+                        "time": 1633564800000,
+                        "high": 7.04,
+                        "low": 6.66,
+                        "open": 6.7,
+                        "last": 6.84,
+                        "volume": 24854
+                    },
+                    {
+                        "time": 1633651200000,
+                        "high": 6.98,
+                        "low": 6.82,
+                        "open": 6.92,
+                        "last": 6.94,
+                        "volume": 11246
+                    },
+                    {
+                        "time": 1633968000089,
+                        "high": 7.18,
+                        "low": 6.86,
+                        "open": 7.16,
+                        "last": 6.98,
+                        "volume": 7191
+                    }
+                ]
+            }
+        ]
+    }
+]
