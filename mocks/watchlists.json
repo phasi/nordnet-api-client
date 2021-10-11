@@ -1,0 +1,29 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": [
+            {
+                "list_id": 2800292,
+                "list_name": "suomiosakkeet"
+            },
+            {
+                "list_id": 2800314,
+                "list_name": "random"
+            },
+            {
+                "list_id": 2816277,
+                "list_name": "ulkomaiset"
+            }
+        ]
+    }
+]

@@ -1,0 +1,119 @@
+{
+    "rows": 1,
+    "total_hits": 1,
+    "results": [
+        {
+            "instrument_info": {
+                "instrument_id": 16100828,
+                "name": "Nordea Bank Abp",
+                "long_name": "Nordea Bank Abp",
+                "symbol": "NDA FI",
+                "instrument_group_type": "EQ",
+                "instrument_type_hierarchy": "EQ/ESH",
+                "instrument_type": "ESH",
+                "isin": "FI4000297767",
+                "currency": "EUR",
+                "clearing_place": "APK",
+                "is_tradable": true,
+                "instrument_pawn_percentage": 80,
+                "is_shortable": true,
+                "issuer_id": 252116,
+                "issuer_name": "Nordea Bank"
+            },
+            "status_info": {
+                "trading_status": "CLOSED",
+                "translated_trading_status": "CLOSED",
+                "tick_timestamp": 1633968000000
+            },
+            "market_info": {
+                "market_id": 24,
+                "market_sub_id": 4713,
+                "identifier": "150235",
+                "tick_size_id": 14735
+            },
+            "price_info": {
+                "last": {
+                    "price": 10.4240,
+                    "decimals": 3
+                },
+                "open": {
+                    "price": 10.4500,
+                    "decimals": 3
+                },
+                "close": {
+                    "price": 10.4500,
+                    "decimals": 3
+                },
+                "turnover": 32138061.55,
+                "turnover_normalized": 325107666.50,
+                "turnover_volume": 3081325,
+                "bid": {
+                    "price": 10.4240,
+                    "decimals": 3
+                },
+                "ask": {
+                    "price": 10.4240,
+                    "decimals": 3
+                },
+                "bid_volume": 798600,
+                "ask_volume": 807375,
+                "high": {
+                    "price": 10.5100,
+                    "decimals": 3
+                },
+                "low": {
+                    "price": 10.3800,
+                    "decimals": 3
+                },
+                "diff": {
+                    "diff": -0.0260,
+                    "decimals": 3
+                },
+                "diff_pct": -0.25,
+                "spread": {
+                    "price": 0,
+                    "decimals": 4
+                },
+                "spread_pct": 0,
+                "tick_timestamp": 1633968000000,
+                "realtime": true
+            },
+            "exchange_info": {
+                "exchange_country": "FI"
+            },
+            "key_ratios_info": {
+                "pe": 12.41,
+                "ps": 4.60,
+                "eps": 0.82,
+                "pb": 1.19,
+                "dividend_per_share": 0.72,
+                "dividend_yield": 6.89
+            },
+            "historical_returns_info": {
+                "yield_1d": -0.25,
+                "yield_1w": -6.26,
+                "yield_1m": 1.13,
+                "yield_3m": 11.14,
+                "yield_ytd": 56.24,
+                "yield_1y": 52.04,
+                "yield_3y": 21.44,
+                "yield_5y": 11.49,
+                "realtime": true
+            },
+            "company_info": {
+                "dividend_date": 1633989600000,
+                "dividend_amount": 0.72,
+                "dividend_currency": "EUR",
+                "excluding_date": 1633298400000,
+                "general_meeting_date": 1648076400000,
+                "report_date": 1634767200000,
+                "report_type": "THIRD_QUARTER_EARNINGS_RESULTS",
+                "report_description": "Q3-osavuosiraportti"
+            },
+            "statistical_info": {
+                "statistics_timestamp": 1633910405923,
+                "number_of_owners": 67293
+            }
+        }
+    ]
+}

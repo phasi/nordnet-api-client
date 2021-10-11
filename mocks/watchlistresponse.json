@@ -1,0 +1,1974 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": {
+            "is_full": false,
+            "total_items_in_list": 20,
+            "results": [
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100802,
+                        "name": "Fortum Corporation",
+                        "long_name": "Fortum Corporation",
+                        "symbol": "FORTUM",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009007132",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24271",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 26.5200,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 26.6200,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 26.6300,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 999475,
+                        "turnover": 26501944.42,
+                        "turnover_normalized": 268092874.69,
+                        "bid": {
+                            "price": 26.5200,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 26.5200,
+                            "decimals": 2
+                        },
+                        "bid_volume": 345463,
+                        "ask_volume": 365638,
+                        "high": {
+                            "price": 26.7000,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 26.3300,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.1100,
+                            "decimals": 2
+                        },
+                        "diff_pct": -0.41,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966184000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.41,
+                        "yield_1w": -0.75,
+                        "yield_1m": 1.41,
+                        "yield_3m": 15.00,
+                        "yield_ytd": 34.62,
+                        "yield_1y": 44.88,
+                        "yield_3y": 32.20,
+                        "yield_5y": 84.29,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 45.48
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 11.01,
+                        "ps": 0.32,
+                        "eps": 1.32,
+                        "pb": 1.85,
+                        "dividend_per_share": 1.12,
+                        "dividend_yield": 4.21
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 0,
+                        "item_id": 26670915
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100828,
+                        "name": "Nordea Bank Abp",
+                        "long_name": "Nordea Bank Abp",
+                        "symbol": "NDA FI",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI4000297767",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 80
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "150235",
+                        "tick_size_id": 14735
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 10.4240,
+                            "decimals": 3
+                        },
+                        "open": {
+                            "price": 10.4500,
+                            "decimals": 3
+                        },
+                        "close": {
+                            "price": 10.4500,
+                            "decimals": 3
+                        },
+                        "turnover_volume": 3081325,
+                        "turnover": 32138061.55,
+                        "turnover_normalized": 325107666.50,
+                        "bid": {
+                            "price": 10.4240,
+                            "decimals": 3
+                        },
+                        "ask": {
+                            "price": 10.4240,
+                            "decimals": 3
+                        },
+                        "bid_volume": 798600,
+                        "ask_volume": 807375,
+                        "high": {
+                            "price": 10.5100,
+                            "decimals": 3
+                        },
+                        "low": {
+                            "price": 10.3800,
+                            "decimals": 3
+                        },
+                        "diff": {
+                            "diff": -0.0260,
+                            "decimals": 3
+                        },
+                        "diff_pct": -0.25,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966185000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.25,
+                        "yield_1w": -6.26,
+                        "yield_1m": 1.13,
+                        "yield_3m": 11.14,
+                        "yield_ytd": 56.24,
+                        "yield_1y": 52.04,
+                        "yield_3y": 21.44,
+                        "yield_5y": 11.49,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 52.42
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 12.41,
+                        "ps": 4.60,
+                        "eps": 0.82,
+                        "pb": 1.19,
+                        "dividend_per_share": 0.72,
+                        "dividend_yield": 6.89
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 1,
+                        "item_id": 26670923
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16833168,
+                        "name": "Harvia Plc",
+                        "long_name": "Harvia Plc",
+                        "symbol": "HARVIA",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI4000306873",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 40
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "152347",
+                        "tick_size_id": 14732
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 48.4500,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 49.5000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 49.0000,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 77807,
+                        "turnover": 3726868.15,
+                        "turnover_normalized": 37700886.40,
+                        "bid": {
+                            "price": 48.4500,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 48.4500,
+                            "decimals": 2
+                        },
+                        "bid_volume": 4486,
+                        "ask_volume": 4750,
+                        "high": {
+                            "price": 49.5000,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 47.1000,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.5500,
+                            "decimals": 2
+                        },
+                        "diff_pct": -1.12,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966175000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -1.12,
+                        "yield_1w": 3.09,
+                        "yield_1m": -11.26,
+                        "yield_3m": -4.81,
+                        "yield_ytd": 97.76,
+                        "yield_1y": 165.48,
+                        "yield_3y": 748.51,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 168.49
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 34.36,
+                        "ps": 6.18,
+                        "eps": 1.46,
+                        "pb": 12.89,
+                        "dividend_per_share": 0.39,
+                        "dividend_yield": 0.80
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 2,
+                        "item_id": 26724234
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16103263,
+                        "name": "KONE Corporation",
+                        "long_name": "KONE Corporation",
+                        "symbol": "KNEBV",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009013403",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "29981",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 59.4400,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 59.9000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 60.1600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 527777,
+                        "turnover": 31379872.05,
+                        "turnover_normalized": 317437844.26,
+                        "bid": {
+                            "price": 59.4400,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 59.4400,
+                            "decimals": 2
+                        },
+                        "bid_volume": 170664,
+                        "ask_volume": 168821,
+                        "high": {
+                            "price": 60.1400,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 58.8400,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.7200,
+                            "decimals": 2
+                        },
+                        "diff_pct": -1.20,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966189000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -1.20,
+                        "yield_1w": -1.75,
+                        "yield_1m": -10.35,
+                        "yield_3m": -14.79,
+                        "yield_ytd": -10.56,
+                        "yield_1y": -19.20,
+                        "yield_3y": 38.94,
+                        "yield_5y": 32.56,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": -18.22
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 30.58,
+                        "ps": 3.02,
+                        "eps": 1.97,
+                        "pb": 12.00,
+                        "dividend_per_share": 1.75,
+                        "dividend_yield": 2.91
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 3,
+                        "item_id": 26724240
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100790,
+                        "name": "Revenio Group Corporation",
+                        "long_name": "Revenio Group Corporation",
+                        "symbol": "REG1V",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009010912",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 40
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24250",
+                        "tick_size_id": 14733
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 54.2000,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 53.8500,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 53.8000,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 13379,
+                        "turnover": 717289.45,
+                        "turnover_normalized": 7256078.56,
+                        "bid": {
+                            "price": 54.2000,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 54.2000,
+                            "decimals": 2
+                        },
+                        "bid_volume": 2888,
+                        "ask_volume": 2859,
+                        "high": {
+                            "price": 54.2500,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 52.8000,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": 0.4000,
+                            "decimals": 2
+                        },
+                        "diff_pct": 0.74,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966187000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.74,
+                        "yield_1w": 0,
+                        "yield_1m": -13.76,
+                        "yield_3m": -17.00,
+                        "yield_ytd": 7.75,
+                        "yield_1y": 42.63,
+                        "yield_3y": 237.91,
+                        "yield_5y": 476.60,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 41.58
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 85.47,
+                        "ps": 20.28,
+                        "eps": 0.60,
+                        "pb": 21.10,
+                        "dividend_per_share": 0.32,
+                        "dividend_yield": 0.59
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 4,
+                        "item_id": 26724254
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 17576340,
+                        "name": "EcoUp Oyj",
+                        "long_name": "EcoUp Oyj",
+                        "symbol": "ECOUP",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESHMTF",
+                        "instrument_type": "ESHMTF",
+                        "isin": "FI4000511563",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 0
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4688,
+                        "identifier": "235075",
+                        "tick_size_id": 14731
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 6.9800,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 7.1600,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 6.9400,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 7191,
+                        "turnover": 50251.00,
+                        "turnover_normalized": 508337.61,
+                        "bid": {
+                            "price": 6.9000,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 6.9600,
+                            "decimals": 2
+                        },
+                        "bid_volume": 844,
+                        "ask_volume": 750,
+                        "high": {
+                            "price": 7.1800,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 6.8600,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": 0.0400,
+                            "decimals": 2
+                        },
+                        "diff_pct": 0.58,
+                        "spread": {
+                            "price": 0.0600,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0.86,
+                        "tick_timestamp": 1633966171000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.58,
+                        "yield_1w": 0.43,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {},
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {},
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 5,
+                        "item_id": 26731551
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100867,
+                        "name": "Digia Plc",
+                        "long_name": "Digia Plc",
+                        "symbol": "DIGIA",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009007983",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 30
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24367",
+                        "tick_size_id": 14732
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 6.7300,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 6.8800,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 6.7600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 9753,
+                        "turnover": 65303.85,
+                        "turnover_normalized": 660611.79,
+                        "bid": {
+                            "price": 6.7300,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 6.7300,
+                            "decimals": 2
+                        },
+                        "bid_volume": 1843,
+                        "ask_volume": 213,
+                        "high": {
+                            "price": 6.8800,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 6.6200,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.0300,
+                            "decimals": 2
+                        },
+                        "diff_pct": -0.44,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966177000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.44,
+                        "yield_1w": 3.54,
+                        "yield_1m": -6.66,
+                        "yield_3m": -15.45,
+                        "yield_ytd": -10.51,
+                        "yield_1y": 9.61,
+                        "yield_3y": 128.91,
+                        "yield_5y": 121.48,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 10.10
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 16.10,
+                        "ps": 1.25,
+                        "eps": 0.43,
+                        "pb": 2.91,
+                        "dividend_per_share": 0.15,
+                        "dividend_yield": 2.22
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 6,
+                        "item_id": 26741653
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16746383,
+                        "name": "Rovio Entertainment Corporation",
+                        "long_name": "Rovio Entertainment Corporation",
+                        "symbol": "ROVIO",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI4000266804",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 60
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "144044",
+                        "tick_size_id": 14733
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 5.8750,
+                            "decimals": 3
+                        },
+                        "open": {
+                            "price": 6.0450,
+                            "decimals": 3
+                        },
+                        "close": {
+                            "price": 5.9550,
+                            "decimals": 3
+                        },
+                        "turnover_volume": 102094,
+                        "turnover": 599652.30,
+                        "turnover_normalized": 6066064.68,
+                        "bid": {
+                            "price": 5.8750,
+                            "decimals": 3
+                        },
+                        "ask": {
+                            "price": 5.8750,
+                            "decimals": 3
+                        },
+                        "bid_volume": 3757,
+                        "ask_volume": 3798,
+                        "high": {
+                            "price": 6.0450,
+                            "decimals": 3
+                        },
+                        "low": {
+                            "price": 5.7900,
+                            "decimals": 3
+                        },
+                        "diff": {
+                            "diff": -0.0800,
+                            "decimals": 3
+                        },
+                        "diff_pct": -1.34,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966198000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -1.34,
+                        "yield_1w": 0.17,
+                        "yield_1m": -11.79,
+                        "yield_3m": -14.42,
+                        "yield_ytd": -6.89,
+                        "yield_1y": -0.51,
+                        "yield_3y": 39.32,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 0.85
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 6.13,
+                        "ps": 1.62,
+                        "eps": 0.34,
+                        "pb": 2.53,
+                        "dividend_per_share": 0.12,
+                        "dividend_yield": 2.02
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 7,
+                        "item_id": 26753775
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16103264,
+                        "name": "Cargotec Oyj",
+                        "long_name": "Cargotec Oyj",
+                        "symbol": "CGCBV",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009013429",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 75
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "29983",
+                        "tick_size_id": 14733
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 42.3600,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 43.0000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 42.7600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 71076,
+                        "turnover": 3006362.83,
+                        "turnover_normalized": 30412276.20,
+                        "bid": {
+                            "price": 42.3600,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 42.3600,
+                            "decimals": 2
+                        },
+                        "bid_volume": 7655,
+                        "ask_volume": 7613,
+                        "high": {
+                            "price": 43.0000,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 42.0200,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.4000,
+                            "decimals": 2
+                        },
+                        "diff_pct": -0.94,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966193000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.94,
+                        "yield_1w": -0.56,
+                        "yield_1m": -17.67,
+                        "yield_3m": -6.90,
+                        "yield_ytd": 25.25,
+                        "yield_1y": 31.39,
+                        "yield_3y": 18.79,
+                        "yield_5y": 2.34,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 32.63
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 20.45,
+                        "ps": 0.86,
+                        "eps": 1.07,
+                        "pb": 2.15,
+                        "dividend_per_share": 1.08,
+                        "dividend_yield": 2.53
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 8,
+                        "item_id": 26765520
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100799,
+                        "name": "Fiskars Corporation",
+                        "long_name": "Fiskars Corporation",
+                        "symbol": "FSKRS",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009000400",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 70
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24267",
+                        "tick_size_id": 14732
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 19.3400,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 19.6600,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 19.6600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 21376,
+                        "turnover": 416315.52,
+                        "turnover_normalized": 4211435.31,
+                        "bid": {
+                            "price": 19.3400,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 19.3400,
+                            "decimals": 2
+                        },
+                        "bid_volume": 842,
+                        "ask_volume": 670,
+                        "high": {
+                            "price": 19.7200,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 19.3000,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.3200,
+                            "decimals": 2
+                        },
+                        "diff_pct": -1.63,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966187000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -1.63,
+                        "yield_1w": 2.44,
+                        "yield_1m": -10.88,
+                        "yield_3m": 2.87,
+                        "yield_ytd": 29.11,
+                        "yield_1y": 66.44,
+                        "yield_3y": 17.07,
+                        "yield_5y": 14.24,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 69.19
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 19.38,
+                        "ps": 1.36,
+                        "eps": 1.11,
+                        "pb": 2.12,
+                        "dividend_per_share": 0.60,
+                        "dividend_yield": 3.05
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 9,
+                        "item_id": 26765528
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100874,
+                        "name": "Telia Company AB",
+                        "long_name": "Telia Company AB",
+                        "symbol": "TELIA1",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "SE0000667925",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24381",
+                        "tick_size_id": 14735
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 3.5605,
+                            "decimals": 4
+                        },
+                        "open": {
+                            "price": 3.5500,
+                            "decimals": 4
+                        },
+                        "close": {
+                            "price": 3.5515,
+                            "decimals": 4
+                        },
+                        "turnover_volume": 412065,
+                        "turnover": 1461850.51,
+                        "turnover_normalized": 14788035.90,
+                        "bid": {
+                            "price": 3.5605,
+                            "decimals": 4
+                        },
+                        "ask": {
+                            "price": 3.5605,
+                            "decimals": 4
+                        },
+                        "bid_volume": 8322,
+                        "ask_volume": 11153,
+                        "high": {
+                            "price": 3.5630,
+                            "decimals": 4
+                        },
+                        "low": {
+                            "price": 3.5305,
+                            "decimals": 4
+                        },
+                        "diff": {
+                            "diff": 0.0090,
+                            "decimals": 4
+                        },
+                        "diff_pct": 0.25,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966199000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.25,
+                        "yield_1w": 0.51,
+                        "yield_1m": -1.78,
+                        "yield_3m": -5.61,
+                        "yield_ytd": 5.34,
+                        "yield_1y": -2.61,
+                        "yield_3y": -11.01,
+                        "yield_5y": -9.77,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": -2.86
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "ps": 1.67,
+                        "eps": -3.16,
+                        "pb": 2.15,
+                        "dividend_per_share": 0.20,
+                        "dividend_yield": 5.57
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 10,
+                        "item_id": 26765935
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100852,
+                        "name": "Sampo Plc A",
+                        "long_name": "Sampo Plc A",
+                        "symbol": "SAMPO",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009003305",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24346",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 45.1800,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 45.1800,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 45.0900,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 858982,
+                        "turnover": 38713285.04,
+                        "turnover_normalized": 391622430.07,
+                        "bid": {
+                            "price": 45.1800,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 45.1800,
+                            "decimals": 2
+                        },
+                        "bid_volume": 237536,
+                        "ask_volume": 239866,
+                        "high": {
+                            "price": 45.2300,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 44.8400,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": 0.0900,
+                            "decimals": 2
+                        },
+                        "diff_pct": 0.20,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966176000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.20,
+                        "yield_1w": 2.92,
+                        "yield_1m": 2.71,
+                        "yield_3m": 13.95,
+                        "yield_ytd": 30.69,
+                        "yield_1y": 26.66,
+                        "yield_3y": 6.31,
+                        "yield_5y": 10.55,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 26.41
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 32.89,
+                        "ps": 2.31,
+                        "eps": 1.06,
+                        "pb": 2.10,
+                        "dividend_per_share": 1.70,
+                        "dividend_yield": 3.77
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 11,
+                        "item_id": 26765944
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100830,
+                        "name": "Nokia Corporation",
+                        "long_name": "Nokia Corporation",
+                        "symbol": "NOKIA",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009000681",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 70
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24311",
+                        "tick_size_id": 14735
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 5.0850,
+                            "decimals": 3
+                        },
+                        "open": {
+                            "price": 5.0670,
+                            "decimals": 3
+                        },
+                        "close": {
+                            "price": 5.0750,
+                            "decimals": 3
+                        },
+                        "turnover_volume": 10496798,
+                        "turnover": 53088654.14,
+                        "turnover_normalized": 537043232.62,
+                        "bid": {
+                            "price": 5.0850,
+                            "decimals": 3
+                        },
+                        "ask": {
+                            "price": 5.0850,
+                            "decimals": 3
+                        },
+                        "bid_volume": 4111471,
+                        "ask_volume": 4285106,
+                        "high": {
+                            "price": 5.0870,
+                            "decimals": 3
+                        },
+                        "low": {
+                            "price": 4.9830,
+                            "decimals": 4
+                        },
+                        "diff": {
+                            "diff": 0.0100,
+                            "decimals": 3
+                        },
+                        "diff_pct": 0.20,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966176000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.20,
+                        "yield_1w": 7.13,
+                        "yield_1m": 1.32,
+                        "yield_3m": 9.25,
+                        "yield_ytd": 61.38,
+                        "yield_1y": 47.82,
+                        "yield_3y": 13.00,
+                        "yield_5y": 2.48,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 47.53
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "ps": 1.29,
+                        "eps": -0.34,
+                        "pb": 2.01
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 12,
+                        "item_id": 26766667
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16102550,
+                        "name": "Neste Corporation",
+                        "long_name": "Neste Corporation",
+                        "symbol": "NESTE",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009013296",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 75
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "29375",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 47.3900,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 47.3000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 47.6300,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 894695,
+                        "turnover": 42058032.66,
+                        "turnover_normalized": 425457796.65,
+                        "bid": {
+                            "price": 47.3900,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 47.3900,
+                            "decimals": 2
+                        },
+                        "bid_volume": 358440,
+                        "ask_volume": 383094,
+                        "high": {
+                            "price": 47.5000,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 46.1200,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.2400,
+                            "decimals": 2
+                        },
+                        "diff_pct": -0.50,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966182000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.50,
+                        "yield_1w": -4.57,
+                        "yield_1m": -10.95,
+                        "yield_3m": -9.35,
+                        "yield_ytd": -19.90,
+                        "yield_1y": -0.02,
+                        "yield_3y": 96.26,
+                        "yield_5y": 261.02,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 0.49
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 32.57,
+                        "ps": 3.04,
+                        "eps": 1.51,
+                        "pb": 6.06,
+                        "dividend_per_share": 0.80,
+                        "dividend_yield": 1.68
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 13,
+                        "item_id": 26766668
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100794,
+                        "name": "Elisa Corporation",
+                        "long_name": "Elisa Corporation",
+                        "symbol": "ELISA",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009007884",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24254",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 54.2800,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 53.9600,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 53.9600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 123888,
+                        "turnover": 6711302.64,
+                        "turnover_normalized": 67891336.17,
+                        "bid": {
+                            "price": 54.2800,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 54.2800,
+                            "decimals": 2
+                        },
+                        "bid_volume": 74491,
+                        "ask_volume": 68529,
+                        "high": {
+                            "price": 54.3600,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 53.7200,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": 0.3200,
+                            "decimals": 2
+                        },
+                        "diff_pct": 0.59,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966191000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.59,
+                        "yield_1w": 1.16,
+                        "yield_1m": 0.56,
+                        "yield_3m": 5.36,
+                        "yield_ytd": 20.97,
+                        "yield_1y": 9.57,
+                        "yield_3y": 50.40,
+                        "yield_5y": 70.96,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 8.92
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 26.46,
+                        "ps": 4.47,
+                        "eps": 2.07,
+                        "pb": 8.40,
+                        "dividend_per_share": 1.95,
+                        "dividend_yield": 3.61
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 14,
+                        "item_id": 26766676
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100814,
+                        "name": "Kesko Corporation B",
+                        "long_name": "Kesko Corporation B",
+                        "symbol": "KESKOB",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009000202",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24288",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 28.9000,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 29.3100,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 29.3600,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 314123,
+                        "turnover": 9059103.96,
+                        "turnover_normalized": 91641623.89,
+                        "bid": {
+                            "price": 28.9000,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 28.9000,
+                            "decimals": 2
+                        },
+                        "bid_volume": 156695,
+                        "ask_volume": 157607,
+                        "high": {
+                            "price": 29.3200,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 28.4400,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.4600,
+                            "decimals": 2
+                        },
+                        "diff_pct": -1.57,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966186000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -1.57,
+                        "yield_1w": -2.10,
+                        "yield_1m": -12.26,
+                        "yield_3m": -10.16,
+                        "yield_ytd": 37.36,
+                        "yield_1y": 28.67,
+                        "yield_3y": 153.01,
+                        "yield_5y": 176.36,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 30.72
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 23.64,
+                        "ps": 1.07,
+                        "eps": 1.36,
+                        "pb": 5.37,
+                        "dividend_per_share": 0.74,
+                        "dividend_yield": 2.52
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 15,
+                        "item_id": 26766678
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100879,
+                        "name": "UPM-Kymmene Corporation",
+                        "long_name": "UPM-Kymmene Corporation",
+                        "symbol": "UPM",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009005987",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24386",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 31.0600,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 31.1000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 31.1100,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 633410,
+                        "turnover": 19653875.38,
+                        "turnover_normalized": 198818013.73,
+                        "bid": {
+                            "price": 31.0600,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 31.0600,
+                            "decimals": 2
+                        },
+                        "bid_volume": 287189,
+                        "ask_volume": 294412,
+                        "high": {
+                            "price": 31.1900,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 30.8300,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": -0.0500,
+                            "decimals": 2
+                        },
+                        "diff_pct": -0.16,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966179000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.16,
+                        "yield_1w": 2.24,
+                        "yield_1m": -10.21,
+                        "yield_3m": -6.42,
+                        "yield_ytd": 1.94,
+                        "yield_1y": 18.73,
+                        "yield_3y": 0.84,
+                        "yield_5y": 62.19,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 18.92
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 20.45,
+                        "ps": 1.88,
+                        "eps": 1.37,
+                        "pb": 1.77,
+                        "dividend_per_share": 1.30,
+                        "dividend_yield": 4.18
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 16,
+                        "item_id": 26766765
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100862,
+                        "name": "Stora Enso Oyj R",
+                        "long_name": "Stora Enso Oyj R",
+                        "symbol": "STERV",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009005961",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24360",
+                        "tick_size_id": 14734
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 14.4700,
+                            "decimals": 3
+                        },
+                        "open": {
+                            "price": 14.5500,
+                            "decimals": 3
+                        },
+                        "close": {
+                            "price": 14.5700,
+                            "decimals": 3
+                        },
+                        "turnover_volume": 606488,
+                        "turnover": 8779843.29,
+                        "turnover_normalized": 88816631.33,
+                        "bid": {
+                            "price": 14.4700,
+                            "decimals": 3
+                        },
+                        "ask": {
+                            "price": 14.4700,
+                            "decimals": 3
+                        },
+                        "bid_volume": 174373,
+                        "ask_volume": 175361,
+                        "high": {
+                            "price": 14.6000,
+                            "decimals": 3
+                        },
+                        "low": {
+                            "price": 14.3700,
+                            "decimals": 3
+                        },
+                        "diff": {
+                            "diff": -0.1000,
+                            "decimals": 3
+                        },
+                        "diff_pct": -0.69,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966184000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": -0.69,
+                        "yield_1w": 1.54,
+                        "yield_1m": -14.23,
+                        "yield_3m": -10.18,
+                        "yield_ytd": -7.51,
+                        "yield_1y": 1.90,
+                        "yield_3y": -0.28,
+                        "yield_5y": 76.25,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 2.61
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 20.53,
+                        "ps": 1.26,
+                        "eps": 0.85,
+                        "pb": 1.25,
+                        "dividend_per_share": 0.30,
+                        "dividend_yield": 2.06
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 17,
+                        "item_id": 26766772
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16801606,
+                        "name": "Nordnet Indeksirahasto Suomi",
+                        "long_name": "Nordnet Indeksirahasto Suomi",
+                        "symbol": "NN INDEKSIRAHASTO SUOMI",
+                        "instrument_group_type": "FND",
+                        "instrument_type_hierarchy": "FND/FUCITS",
+                        "instrument_type": "FUCITS",
+                        "isin": "SE0005993102",
+                        "currency": "EUR",
+                        "clearing_place": "FUND",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 85
+                    },
+                    "market_info": {
+                        "market_id": 78,
+                        "market_sub_id": 0,
+                        "identifier": "F00000TH8W",
+                        "tick_size_id": 14729
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 236.0700,
+                            "decimals": 2
+                        },
+                        "tick_timestamp": 1633651200000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.26,
+                        "yield_1w": 1.32,
+                        "yield_1m": -5.04,
+                        "yield_3m": 0.68,
+                        "yield_ytd": 20.76,
+                        "yield_1y": 26.76,
+                        "yield_3y": 43.95,
+                        "yield_5y": 86.99,
+                        "realtime": true
+                    },
+                    "fund_info": {
+                        "fund_type": "Indeksi",
+                        "fund_category": "Suomi osakkeet",
+                        "fund_universe_country": "FI",
+                        "fund_universe_currency": "EUR",
+                        "fund_admin_company": "E. Öhman J:or Fonder AB",
+                        "fund_low_carbon": false,
+                        "fund_nordnet_selection": false,
+                        "fund_ms_rating": 3,
+                        "fund_total_market_value": 5650010643,
+                        "fund_esg_score": 19,
+                        "fund_yearly_fee": 0,
+                        "fund_raw_risk": 6,
+                        "fund_risk_group": "Korkea",
+                        "fund_start_date": 1402956000000,
+                        "fund_trading_frequency": "Päivittäin",
+                        "fund_branding_company": "Nordnet",
+                        "fund_min_investment": 15,
+                        "fund_dividend_strategy": "Kasvuosuus",
+                        "fund_sfdr_article": "Luokittelematon"
+                    },
+                    "annual_growth_info": {
+                        "annual_growth_1y": 26.76,
+                        "annual_growth_3y": 12.91,
+                        "annual_growth_5y": 13.33
+                    },
+                    "exchange_info": {},
+                    "key_ratios_info": {},
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 18,
+                        "item_id": 26766793
+                    }
+                },
+                {
+                    "instrument_info": {
+                        "instrument_id": 16100842,
+                        "name": "Ponsse Oyj 1",
+                        "long_name": "Ponsse Oyj 1",
+                        "symbol": "PON1V",
+                        "instrument_group_type": "EQ",
+                        "instrument_type_hierarchy": "EQ/ESH",
+                        "instrument_type": "ESH",
+                        "isin": "FI0009005078",
+                        "currency": "EUR",
+                        "clearing_place": "APK",
+                        "is_tradable": true,
+                        "instrument_pawn_percentage": 60
+                    },
+                    "market_info": {
+                        "market_id": 24,
+                        "market_sub_id": 4713,
+                        "identifier": "24332",
+                        "tick_size_id": 14732
+                    },
+                    "price_info": {
+                        "last": {
+                            "price": 39.4000,
+                            "decimals": 2
+                        },
+                        "open": {
+                            "price": 41.0000,
+                            "decimals": 2
+                        },
+                        "close": {
+                            "price": 39.2500,
+                            "decimals": 2
+                        },
+                        "turnover_volume": 959,
+                        "turnover": 38197.95,
+                        "turnover_normalized": 386409.32,
+                        "bid": {
+                            "price": 39.4000,
+                            "decimals": 2
+                        },
+                        "ask": {
+                            "price": 39.4000,
+                            "decimals": 2
+                        },
+                        "bid_volume": 433,
+                        "ask_volume": 25,
+                        "high": {
+                            "price": 41.0000,
+                            "decimals": 2
+                        },
+                        "low": {
+                            "price": 39.4000,
+                            "decimals": 2
+                        },
+                        "diff": {
+                            "diff": 0.1500,
+                            "decimals": 2
+                        },
+                        "diff_pct": 0.38,
+                        "spread": {
+                            "price": 0,
+                            "decimals": 4
+                        },
+                        "spread_pct": 0,
+                        "tick_timestamp": 1633966197000,
+                        "realtime": true
+                    },
+                    "historical_returns_info": {
+                        "yield_1d": 0.38,
+                        "yield_1w": -0.25,
+                        "yield_1m": -10.56,
+                        "yield_3m": -3.08,
+                        "yield_ytd": 34.93,
+                        "yield_1y": 64.51,
+                        "yield_3y": 34.70,
+                        "yield_5y": 57.47,
+                        "realtime": true
+                    },
+                    "fund_info": {},
+                    "annual_growth_info": {
+                        "annual_growth_1y": 63.88
+                    },
+                    "exchange_info": {
+                        "exchange_country": "FI"
+                    },
+                    "key_ratios_info": {
+                        "pe": 20.45,
+                        "ps": 1.57,
+                        "eps": 1.93,
+                        "pb": 4.13,
+                        "dividend_per_share": 0.60,
+                        "dividend_yield": 1.53
+                    },
+                    "indicator_info": {},
+                    "watchlist_meta": {
+                        "display_order": 19,
+                        "item_id": 26848301
+                    }
+                }
+            ]
+        }
+    }
+]
