@@ -51,8 +51,8 @@ func (httpDriver HTTPDriver) PrepareGetRequest(path string) (req *http.Request, 
 }
 
 // PreparePostRequest : Prepares POST request and returns it
-func (httpDriver HTTPDriver) PreparePostRequest(path string, jsonBytes []byte) (req *http.Request, err error) {
-	req, err = http.NewRequest("POST", fmt.Sprintf("%s%s", httpDriver.APIBasePath, path), bytes.NewBuffer(jsonBytes))
+func (httpDriver HTTPDriver) PreparePostRequest(path string, data []byte) (req *http.Request, err error) {
+	req, err = http.NewRequest("POST", fmt.Sprintf("%s%s", httpDriver.APIBasePath, path), bytes.NewBuffer(data))
 	appendHeaders(req)
 	for k, v := range httpDriver.MandatoryHeaders {
 		req.Header[k] = v
