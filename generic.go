@@ -10,5 +10,5 @@ import (
 type ClientDriver interface {
 	SendRequest(req *http.Request) (bytes []byte, err error)
 	PrepareGetRequest(path string) (req *http.Request, err error)
-	PreparePostRequest(path string, data interface{}) (req *http.Request, err error)
+	PreparePostRequest(path string, jsonBytes []byte) (req *http.Request, err error)
 }

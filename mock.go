@@ -79,9 +79,8 @@ func (mockDriver MockDriver) PrepareGetRequest(path string) (req *http.Request, 
 }
 
 // PreparePostRequest :
-func (mockDriver MockDriver) PreparePostRequest(path string, data interface{}) (req *http.Request, err error) {
-	jsonValue, err := json.Marshal(data)
-	req, err = http.NewRequest("POST", path, bytes.NewBuffer(jsonValue))
+func (mockDriver MockDriver) PreparePostRequest(path string, jsonBytes []byte) (req *http.Request, err error) {
+	req, err = http.NewRequest("POST", path, bytes.NewBuffer(jsonBytes))
 	return
 }
 

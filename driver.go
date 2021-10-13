@@ -2,7 +2,6 @@ package nordnet_api_client
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -52,9 +51,8 @@ func (httpDriver HTTPDriver) PrepareGetRequest(path string) (req *http.Request, 
 }
 
 // PreparePostRequest : Prepares POST request and returns it
-func (httpDriver HTTPDriver) PreparePostRequest(path string, data interface{}) (req *http.Request, err error) {
-	jsonValue, err := json.Marshal(data)
-	req, err = http.NewRequest("POST", fmt.Sprintf("%s%s", httpDriver.APIBasePath, path), bytes.NewBuffer(jsonValue))
+func (httpDriver HTTPDriver) PreparePostRequest(path string, jsonBytes []byte) (req *http.Request, err error) {
+	req, err = http.NewRequest("POST", fmt.Sprintf("%s%s", httpDriver.APIBasePath, path), bytes.NewBuffer(jsonBytes))
 	appendHeaders(req)
 	for k, v := range httpDriver.MandatoryHeaders {
 		req.Header[k] = v

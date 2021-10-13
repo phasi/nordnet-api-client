@@ -20,15 +20,18 @@ func (nc NordnetClient) GetWatchLists() (wlg []WatchListDetail, err error) {
 	if err != nil {
 		return
 	}
-	req, err := nc.Driver.PreparePostRequest("/batch", batch)
+	jsonBytes, err := json.Marshal(batch)
 	if err != nil {
 		return
 	}
-	bytes, err := nc.Driver.SendRequest(req)
+	bytes, err := nc.post("/batch", jsonBytes)
 	if err != nil {
 		return
 	}
 	err = json.Unmarshal(bytes, &wlgList)
+	if err != nil {
+		return
+	}
 	wlg = wlgList[0].WatchListDetail
 	return
 }
@@ -46,15 +49,18 @@ func (nc NordnetClient) GetWatchList(watchListID int) (wlg WatchList, err error)
 	if err != nil {
 		return
 	}
-	req, err := nc.Driver.PreparePostRequest("/batch", batch)
+	jsonBytes, err := json.Marshal(batch)
 	if err != nil {
 		return
 	}
-	bytes, err := nc.Driver.SendRequest(req)
+	bytes, err := nc.post("/batch", jsonBytes)
 	if err != nil {
 		return
 	}
 	err = json.Unmarshal(bytes, &watchListResponse)
+	if err != nil {
+		return
+	}
 	wlg = watchListResponse[0].WatchList
 	return
 }
@@ -63,15 +69,14 @@ func (nc NordnetClient) GetWatchList(watchListID int) (wlg WatchList, err error)
 func (nc NordnetClient) SearchInstrument(id int) (response InstrumentDetail, err error) {
 	var instrumentResponse InstrumentResponse
 	baseAddr := "/instrument_search/query/stocklist?apply_filters=instrument_id%3D"
-	req, err := nc.Driver.PrepareGetRequest(fmt.Sprintf("%s%v", baseAddr, id))
-	if err != nil {
-		return
-	}
-	bytes, err := nc.Driver.SendRequest(req)
+	bytes, err := nc.get(fmt.Sprintf("%s%v", baseAddr, id))
 	if err != nil {
 		return
 	}
 	err = json.Unmarshal(bytes, &instrumentResponse)
+	if err != nil {
+		return
+	}
 	response = instrumentResponse.Results[0]
 	return
 }
@@ -92,15 +97,18 @@ func (nc NordnetClient) GetHistoricalPrices(id int, fromDate string) (history Pr
 	if err != nil {
 		return
 	}
-	req, err := nc.Driver.PreparePostRequest("/batch", batch)
+	jsonBytes, err := json.Marshal(batch)
 	if err != nil {
 		return
 	}
-	bytes, err := nc.Driver.SendRequest(req)
+	bytes, err := nc.post("/batch", jsonBytes)
 	if err != nil {
 		return
 	}
 	err = json.Unmarshal(bytes, &priceHistoryResponse)
+	if err != nil {
+		return
+	}
 	history = priceHistoryResponse[0].Body[0]
 	return
 }
