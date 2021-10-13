@@ -8,12 +8,6 @@ type Batch struct {
 	Batch string `json:"batch"`
 }
 
-// JSON : returns a JSON string representation of Batch{}
-func (b Batch) JSON() string {
-	jsonString, _ := json.Marshal(b)
-	return string(jsonString)
-}
-
 // createBatch : Creates a correctly formatted Batch{}
 // for using with the Nordnet batch-api
 func createBatch(batchList BatchList) (batch Batch, err error) {
