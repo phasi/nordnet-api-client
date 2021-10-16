@@ -10,7 +10,9 @@ var mockDriver MockDriver = MockDriver{
 }
 
 // fakeClient :
-var fakeClient NordnetClient = NewNordnetClient(mockDriver)
+var fakeClient NordnetClient = NordnetClient{
+	Driver: mockDriver,
+}
 
 func TestGetWatchLists(t *testing.T) {
 	watchListDetail, err := fakeClient.GetWatchLists()

@@ -9,10 +9,10 @@ type NordnetClient struct {
 	Driver ClientDriver
 }
 
-// NewNordnetClient : Creates new client.
-func NewNordnetClient(driver ClientDriver) NordnetClient {
+// NewNordnetClient : Creates new client with default driver
+func NewNordnetClient() NordnetClient {
 	client := NordnetClient{
-		Driver: driver,
+		Driver: DefaultDriver,
 	}
 	return client
 }
