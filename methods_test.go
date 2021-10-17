@@ -45,3 +45,27 @@ func TestGetHistoricalPrices(t *testing.T) {
 	}
 	t.Log(prices)
 }
+
+func TestGetDividends(t *testing.T) {
+	dividends, err := fakeClient.GetDividends(1234567)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(dividends)
+}
+
+func TestGetKeyFigures(t *testing.T) {
+	keyfigures, err := fakeClient.GetKeyFigures(1234567)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(keyfigures)
+}
+
+func TestGetInstrumentPrice(t *testing.T) {
+	price, err := fakeClient.GetInstrumentPrice(123456)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(price)
+}

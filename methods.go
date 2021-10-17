@@ -112,3 +112,90 @@ func (nc NordnetClient) GetHistoricalPrices(id int, fromDate string) (history Pr
 	history = priceHistoryResponse[0].Body[0]
 	return
 }
+
+// GetDividends : Get dividends for a company/stock
+func (nc NordnetClient) GetDividends(id int) (div []Dividend, err error) {
+	var dividendResponse DividendsResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("company_data/dividends/%v", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &dividendResponse)
+	if err != nil {
+		return
+	}
+	div = dividendResponse[0].Body
+	return
+}
+
+// GetKeyFigures : Get key figures for a stock/company
+func (nc NordnetClient) GetKeyFigures(id int) (kf KeyFigures, err error) {
+	var keyFiguresResponse KeyFiguresResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("company_data/keyfigures/%v", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &keyFiguresResponse)
+	if err != nil {
+		return
+	}
+	kf = keyFiguresResponse[0].Body
+	return
+}
+
+// GetInstrumentPrice : Get price for a stock/instrument
+func (nc NordnetClient) GetInstrumentPrice(id int) (ip InstrumentPrice, err error) {
+	var instrumentPriceResponse InstrumentPriceResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("instruments/price/%v?request_realtime=false", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &instrumentPriceResponse)
+	if err != nil {
+		return
+	}
+	ip = instrumentPriceResponse[0].Body[0]
+	return
+}

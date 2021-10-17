@@ -1,0 +1,37 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": [
+            {
+                "instrument_id": 16100874,
+                "delay": 0,
+                "ask": 3.6545,
+                "bid": 3.6545,
+                "bid_volume": 12485,
+                "ask_volume": 15856,
+                "tick_timestamp": 1634313600041,
+                "trade_timestamp": 1634313600041,
+                "last": 3.6545,
+                "last_volume": 6,
+                "high": 3.6565,
+                "low": 3.62,
+                "open": 3.65,
+                "close": 3.6445,
+                "vwap": 3.6377,
+                "turnover": 3286000.7,
+                "turnover_volume": 903322,
+                "lot_size": 1
+            }
+        ]
+    }
+]

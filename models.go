@@ -269,3 +269,68 @@ type InstrumentDetail struct {
 		NumberOfOwners      int   `json:"number_of_owners"`
 	} `json:"statistical_info"`
 }
+
+type DividendsResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body []Dividend `json:"body"`
+}
+
+type Dividend struct {
+	ExcludingDate string  `json:"excluding_date"`
+	PayDate       string  `json:"pay_date"`
+	AmountPaid    float64 `json:"amount_paid"`
+	Currency      string  `json:"currency"`
+	Type          string  `json:"type"`
+}
+
+type KeyFiguresResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body KeyFigures `json:"body"`
+}
+
+type KeyFigures struct {
+	ForwardPeratio            float64 `json:"forward_peratio"`
+	PriceBookings             float64 `json:"price_bookings"`
+	PriceSales                float64 `json:"price_sales"`
+	DividendPerShare          float64 `json:"dividend_per_share"`
+	EarningsPerShare          float64 `json:"earnings_per_share"`
+	ForwardDividendYield      float64 `json:"forward_dividend_yield"`
+	OneYearEstimatedEpsGrowth float64 `json:"one_year_estimated_eps_growth"`
+}
+
+type InstrumentPriceResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body []InstrumentPrice `json:"body"`
+}
+type InstrumentPrice struct {
+	InstrumentID   int     `json:"instrument_id"`
+	Delay          int     `json:"delay"`
+	Ask            float64 `json:"ask"`
+	Bid            float64 `json:"bid"`
+	BidVolume      int     `json:"bid_volume"`
+	AskVolume      int     `json:"ask_volume"`
+	TickTimestamp  int64   `json:"tick_timestamp"`
+	TradeTimestamp int64   `json:"trade_timestamp"`
+	Last           float64 `json:"last"`
+	LastVolume     int     `json:"last_volume"`
+	High           float64 `json:"high"`
+	Low            float64 `json:"low"`
+	Open           float64 `json:"open"`
+	Close          float64 `json:"close"`
+	Vwap           float64 `json:"vwap"`
+	Turnover       float64 `json:"turnover"`
+	TurnoverVolume int     `json:"turnover_volume"`
+	LotSize        int     `json:"lot_size"`
+}
