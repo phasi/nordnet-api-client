@@ -305,3 +305,32 @@ type KeyFigures struct {
 	ForwardDividendYield      float64 `json:"forward_dividend_yield"`
 	OneYearEstimatedEpsGrowth float64 `json:"one_year_estimated_eps_growth"`
 }
+
+type InstrumentPriceResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body []InstrumentPrice `json:"body"`
+}
+type InstrumentPrice struct {
+	InstrumentID   int     `json:"instrument_id"`
+	Delay          int     `json:"delay"`
+	Ask            float64 `json:"ask"`
+	Bid            float64 `json:"bid"`
+	BidVolume      int     `json:"bid_volume"`
+	AskVolume      int     `json:"ask_volume"`
+	TickTimestamp  int64   `json:"tick_timestamp"`
+	TradeTimestamp int64   `json:"trade_timestamp"`
+	Last           float64 `json:"last"`
+	LastVolume     int     `json:"last_volume"`
+	High           float64 `json:"high"`
+	Low            float64 `json:"low"`
+	Open           float64 `json:"open"`
+	Close          float64 `json:"close"`
+	Vwap           float64 `json:"vwap"`
+	Turnover       float64 `json:"turnover"`
+	TurnoverVolume int     `json:"turnover_volume"`
+	LotSize        int     `json:"lot_size"`
+}

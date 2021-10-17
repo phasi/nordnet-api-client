@@ -61,3 +61,11 @@ func TestGetKeyFigures(t *testing.T) {
 	}
 	t.Log(keyfigures)
 }
+
+func TestGetInstrumentPrice(t *testing.T) {
+	price, err := fakeClient.GetInstrumentPrice(123456)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(price)
+}

@@ -170,3 +170,32 @@ func (nc NordnetClient) GetKeyFigures(id int) (kf KeyFigures, err error) {
 	kf = keyFiguresResponse[0].Body
 	return
 }
+
+// GetInstrumentPrice : Get price for a stock/instrument
+func (nc NordnetClient) GetInstrumentPrice(id int) (ip InstrumentPrice, err error) {
+	var instrumentPriceResponse InstrumentPriceResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("instruments/price/%v?request_realtime=false", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &instrumentPriceResponse)
+	if err != nil {
+		return
+	}
+	ip = instrumentPriceResponse[0].Body[0]
+	return
+}
