@@ -1,0 +1,87 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": [
+            {
+                "excluding_date": "2021-10-27",
+                "pay_date": "2021-11-02",
+                "amount_paid": 1.0000000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2021-04-13",
+                "pay_date": "2021-04-19",
+                "amount_paid": 1.0000000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2020-12-03",
+                "pay_date": "2020-12-09",
+                "amount_paid": 0.6500000000,
+                "currency": "SEK",
+                "type": "SPECIAL_CASH"
+            },
+            {
+                "excluding_date": "2020-10-22",
+                "pay_date": "2020-10-28",
+                "amount_paid": 0.9000000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2020-04-03",
+                "pay_date": "2020-04-09",
+                "amount_paid": 0.9000000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2019-10-23",
+                "pay_date": "2019-10-29",
+                "amount_paid": 1.1800000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2019-04-11",
+                "pay_date": "2019-04-17",
+                "amount_paid": 1.1800000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2018-10-19",
+                "pay_date": "2018-10-25",
+                "amount_paid": 1.1500000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2018-04-11",
+                "pay_date": "2018-04-17",
+                "amount_paid": 1.1500000000,
+                "currency": "SEK",
+                "type": "CASH"
+            },
+            {
+                "excluding_date": "2017-10-23",
+                "pay_date": "2017-10-27",
+                "amount_paid": 1.0000000000,
+                "currency": "SEK",
+                "type": "CASH"
+            }
+        ]
+    }
+]

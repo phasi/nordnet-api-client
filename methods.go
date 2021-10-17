@@ -112,3 +112,32 @@ func (nc NordnetClient) GetHistoricalPrices(id int, fromDate string) (history Pr
 	history = priceHistoryResponse[0].Body[0]
 	return
 }
+
+// GetDividends : Get dividends for a company/stock
+func (nc NordnetClient) GetDividends(id int) (div []Dividend, err error) {
+	var dividendResponse DividendsResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("company_data/dividends/%v", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &dividendResponse)
+	if err != nil {
+		return
+	}
+	div = dividendResponse[0].Body
+	return
+}

@@ -269,3 +269,20 @@ type InstrumentDetail struct {
 		NumberOfOwners      int   `json:"number_of_owners"`
 	} `json:"statistical_info"`
 }
+
+type DividendsResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body []Dividend `json:"body"`
+}
+
+type Dividend struct {
+	ExcludingDate string  `json:"excluding_date"`
+	PayDate       string  `json:"pay_date"`
+	AmountPaid    float64 `json:"amount_paid"`
+	Currency      string  `json:"currency"`
+	Type          string  `json:"type"`
+}
