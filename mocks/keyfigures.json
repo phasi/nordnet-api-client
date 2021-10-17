@@ -1,0 +1,24 @@
+[
+    {
+        "code": 200,
+        "headers": [
+            {
+                "name": "content-type",
+                "value": "application/json; charset=UTF-8"
+            },
+            {
+                "name": "server",
+                "value": "Nordnet API"
+            }
+        ],
+        "body": {
+            "forward_peratio": 21.645022,
+            "price_bookings": 2.194426,
+            "price_sales": 1.703868,
+            "dividend_per_share": 0.197700,
+            "earnings_per_share": -3.160000,
+            "forward_dividend_yield": 5.420000,
+            "one_year_estimated_eps_growth": -189.020000
+        }
+    }
+]

@@ -53,3 +53,11 @@ func TestGetDividends(t *testing.T) {
 	}
 	t.Log(dividends)
 }
+
+func TestGetKeyFigures(t *testing.T) {
+	keyfigures, err := fakeClient.GetKeyFigures(1234567)
+	if err != nil {
+		t.Error(err)
+	}
+	t.Log(keyfigures)
+}

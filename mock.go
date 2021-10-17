@@ -20,7 +20,8 @@ var batchFiles map[string]string = map[string]string{
 	"^watchlists$":                   "/watchlists.json",
 	"^watchlists/[0-9]{1,}/alldata$": "/watchlistresponse.json",
 	"^instruments/historical/prices/[0-9]{1,}[?]fields=([a-z]{1,}[,]{0,}){1,}[&]from=[0-9]{4}-[0-9]{2}-[0-9]{2}$": "/price_history.json",
-	"company_data/dividends/[0-9]{1,}$": "/dividends.json",
+	"company_data/dividends/[0-9]{1,}$":  "/dividends.json",
+	"company_data/keyfigures/[0-9]{1,}$": "/keyfigures.json",
 }
 
 func handleBatch(data []byte) (s string, err error) {

@@ -141,3 +141,32 @@ func (nc NordnetClient) GetDividends(id int) (div []Dividend, err error) {
 	div = dividendResponse[0].Body
 	return
 }
+
+// GetKeyFigures : Get key figures for a stock/company
+func (nc NordnetClient) GetKeyFigures(id int) (kf KeyFigures, err error) {
+	var keyFiguresResponse KeyFiguresResponse
+	batchList := BatchList{
+		BatchObject{
+			RelativeURL: fmt.Sprintf("company_data/keyfigures/%v", id),
+			Method:      "GET",
+		},
+	}
+	batch, err := createBatch(batchList)
+	if err != nil {
+		return
+	}
+	jsonBytes, err := json.Marshal(batch)
+	if err != nil {
+		return
+	}
+	bytes, err := nc.post("/batch", jsonBytes)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(bytes, &keyFiguresResponse)
+	if err != nil {
+		return
+	}
+	kf = keyFiguresResponse[0].Body
+	return
+}

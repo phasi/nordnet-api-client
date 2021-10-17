@@ -286,3 +286,22 @@ type Dividend struct {
 	Currency      string  `json:"currency"`
 	Type          string  `json:"type"`
 }
+
+type KeyFiguresResponse []struct {
+	Code    int `json:"code"`
+	Headers []struct {
+		Name  string `json:"name"`
+		Value string `json:"value"`
+	} `json:"headers"`
+	Body KeyFigures `json:"body"`
+}
+
+type KeyFigures struct {
+	ForwardPeratio            float64 `json:"forward_peratio"`
+	PriceBookings             float64 `json:"price_bookings"`
+	PriceSales                float64 `json:"price_sales"`
+	DividendPerShare          float64 `json:"dividend_per_share"`
+	EarningsPerShare          float64 `json:"earnings_per_share"`
+	ForwardDividendYield      float64 `json:"forward_dividend_yield"`
+	OneYearEstimatedEpsGrowth float64 `json:"one_year_estimated_eps_growth"`
+}
