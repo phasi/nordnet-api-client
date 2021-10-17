@@ -4,7 +4,7 @@ Go-library for interacting with Nordnet API. Nordnet does not offer publicly ava
 this library accesses the API as a regular web browser would. (By using cookies and other special HTTP headers).
 It then converts JSON responses to go-structs for programmatic use.
 
-Currently its only possible to retrieve user's stock watchlists, but the development has begun! :-)
+Check methods.go for possible methods and methods_test.go for usage reference.
 
 ## Usage example
 
@@ -30,7 +30,7 @@ func main() {
 	// This example prints user's stock watch list names and IDs.
 	api.DefaultDriver.MandatoryHeaders.Add("Cookie", cookie)
 	api.DefaultDriver.MandatoryHeaders.Add("ntag", nTag)
-	client := api.NewNordnetClient(api.DefaultDriver)
+	client := api.NewNordnetClient()
 
 	watchListDetail, err := client.GetWatchLists()
 	if err != nil {
