@@ -6,6 +6,10 @@ It then converts JSON responses to go-structs for programmatic use.
 
 Check methods.go for possible methods and methods_test.go for usage reference.
 
+## Contribution
+
+Please feel free to submit pull requests. "...If it ain't broken it does not have enough features yet..."
+
 ## Usage example
 
 1. Open your browser's developer console -> Go to "Network" (it might be called something else)
